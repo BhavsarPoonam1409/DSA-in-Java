@@ -1,0 +1,26 @@
+public class Arr_Reverse {
+
+    public static void reverse(int numbers[]) {
+        int first = 0;
+        int last = numbers.length-1; //n-1
+
+        while(first < last){
+            //swap
+            int tmp = numbers[last];
+            numbers[last] = numbers[first];
+            numbers[first] = tmp;
+
+            first++;
+            last--;
+        }
+        
+    }
+    public static void main(String[] args) {
+        int numbers[] = {2,4,6,8,10,12,14};
+        reverse(numbers);
+        for(int i=0; i<numbers.length; i++){
+            System.out.print(numbers[i]+" ");
+        }
+        System.out.println();
+    }
+}
