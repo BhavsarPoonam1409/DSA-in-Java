@@ -25,7 +25,7 @@ public class qus1 {
 
         int voewlcount = countVowles(input);
         System.out.println(voewlcount);
-
+        sc.close();
     }
 }
 
