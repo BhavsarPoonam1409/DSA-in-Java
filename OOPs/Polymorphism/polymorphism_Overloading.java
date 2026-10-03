@@ -14,7 +14,7 @@ class Calculator{
     }
 }
 
-public class polymorphism {
+public class polymorphism_Overloading {
     public static void main(String[] args) {
         Calculator calc = new Calculator();
         
